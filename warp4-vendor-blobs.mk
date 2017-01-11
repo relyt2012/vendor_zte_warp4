@@ -193,31 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/warp4/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/zte/warp4/proprietary/etc/init.wlanprop.sh:system/etc/init.wlanprop.sh \
     vendor/zte/warp4/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
-    vendor/zte/warp4/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/zte/warp4/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/zte/warp4/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/zte/warp4/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/zte/warp4/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
-    vendor/zte/warp4/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/zte/warp4/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/zte/warp4/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/zte/warp4/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/zte/warp4/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/zte/warp4/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
-    vendor/zte/warp4/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/zte/warp4/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/zte/warp4/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/zte/warp4/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/zte/warp4/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/zte/warp4/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/zte/warp4/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/zte/warp4/proprietary/bin/rild:system/bin/rild \
-    vendor/zte/warp4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/zte/warp4/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/zte/warp4/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/zte/warp4/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zte/warp4/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
@@ -276,22 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/warp4/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/zte/warp4/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/zte/warp4/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/zte/warp4/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/zte/warp4/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/zte/warp4/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/zte/warp4/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/zte/warp4/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/zte/warp4/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/zte/warp4/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/zte/warp4/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/zte/warp4/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -320,3 +279,28 @@ PRODUCT_COPY_FILES += \
     vendor/zte/warp4/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zte/warp4/proprietary/bin/sapd:system/bin/sapd \
     vendor/zte/warp4/proprietary/bin/usbhub_init:system/bin/usbhub_init
+#    vendor/zte/warp4/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+#    vendor/zte/warp4/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+#    vendor/zte/warp4/proprietary/lib/libidl.so:system/lib/libidl.so \
+#    vendor/zte/warp4/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+#    vendor/zte/warp4/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
+#    vendor/zte/warp4/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+#    vendor/zte/warp4/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+#    vendor/zte/warp4/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+#    vendor/zte/warp4/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+#    vendor/zte/warp4/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+#    vendor/zte/warp4/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+#    vendor/zte/warp4/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+#    vendor/zte/warp4/proprietary/lib/libril.so:system/lib/libril.so \
+#    vendor/zte/warp4/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+#    vendor/zte/warp4/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+#    vendor/zte/warp4/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+#    vendor/zte/warp4/proprietary/bin/netmgrd:system/bin/netmgrd \
+#    vendor/zte/warp4/proprietary/bin/qmuxd:system/bin/qmuxd \
+#    vendor/zte/warp4/proprietary/bin/rild:system/bin/rild \
+#    vendor/zte/warp4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+#    vendor/zte/warp4/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+#    vendor/zte/warp4/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+#    vendor/zte/warp4/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+#    vendor/zte/warp4/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+#    vendor/zte/warp4/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
